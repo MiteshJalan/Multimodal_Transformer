@@ -29,6 +29,7 @@ Update all paths and configuration in 'mmtransformer/config.py'.
 + Update extract_notes.py, "dataset_path = 'PATH-TO-CODE/Multimodal_Transformer/data-mimic3/root/test/'" and "output_folder = 'PATH-TO-CODE/Multimodal_Transformer/data-  
   mimic3/root/test_text_fixed/'".
 + Run 'mmtransformer/scripts/extract_notes.py', the folder 'data-mimic3/root/test_text_fixed/' will be generated.
++ If you face 'punkt' related error, try adding : 'import nltk /n nltk.download('punkt')' to extract_notes.py.
 + Run 'mmtransformer/scripts/extract_T0.py' file.
 
 # Train and Test
