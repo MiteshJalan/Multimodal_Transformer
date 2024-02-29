@@ -24,8 +24,11 @@ Update all paths and configuration in 'mmtransformer/config.py'.
 
 
 ### Notes Processing
-
-+ Run 'mmtransformer/scripts/extract_notes.py', the folder 'data-mimic3/root/test_text_fixed/', and 'data-mimic3/root/text_fixed/' will be generated.
++ create new folders 'data-mimic3/root/test_text_fixed/' and 'data-mimic3/root/text_fixed/'
++ Run 'mmtransformer/scripts/extract_notes.py', the folder 'data-mimic3/root/text_fixed/' will be generated.
++ Update extract_notes.py, "dataset_path = 'PATH-TO-CODE/Multimodal_Transformer/data-mimic3/root/test/'" and "output_folder = 'PATH-TO-CODE/Multimodal_Transformer/data-  
+  mimic3/root/test_text_fixed/'".
++ Run 'mmtransformer/scripts/extract_notes.py', the folder 'data-mimic3/root/test_text_fixed/' will be generated.
 + Run 'mmtransformer/scripts/extract_T0.py' file.
 
 # Train and Test
